@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2? family = The + Nautigal & display = swap");
+
 body {
   background: #f4f2ec url(./img/fundo.png) repeat-x;
   font: 12px "Lucida Grande", "Lucida Sans Unicode", "Arial", sans-serif;
@@ -105,15 +107,16 @@ ul.icons {
 }
 article#bebidas {
   float: left;
-
   margin-left: 50px;
   width: 310px;
-  font-size: 1.3em;
+  font-size: 1.7em;
+  font-family: "Sriracha", cursiva;
 }
 article#entradas {
   float: left;
   width: 310px;
-  font-size: 1.3em;
+  font-size: 1.7em;
+  font-family: "Sriracha", cursiva;
 }
 
 h4 {
@@ -191,20 +194,10 @@ footer {
   min-width: 300px;
   padding: 40px;
   border: 10px solid #86521a;
-  position: relative;
+  position: absolute;
   border-radius: 10px;
 }
-.pizza1 {
-  background: white;
-  width: 50%;
-  height: 50%;
-  min-width: 300px;
-  padding: 40px;
-  border: 10px solid #988b7a;
-  box-shadow: 0 0 0 10px black;
-  position: relative;
-  border-radius: 50%;
-}
+
 @keyframes pizza {
   from {
     opacity: 0;
